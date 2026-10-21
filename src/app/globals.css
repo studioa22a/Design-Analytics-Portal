@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Branding per estate arrives in a later phase as CSS variables set on <html>
+   from estates.branding. Keep the base neutral so it never clashes. */
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
