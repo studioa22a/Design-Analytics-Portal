@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const MESSAGES: Record<string, string> = {
   missing_code: 'The sign-in link was incomplete.',
-  exchange_failed: 'The sign-in link has expired or was already used.',
+  exchange_failed: 'The sign-in link has expired, was already used, or was opened in a different browser.',
 };
 
 export default async function AuthErrorPage({ searchParams }: { searchParams: Promise<{ reason?: string }> }) {
